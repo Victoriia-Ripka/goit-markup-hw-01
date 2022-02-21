@@ -5,96 +5,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale-1.0">
     <title>Web Studio (Version 2.1)</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <!--Navigation-->
         <nav>
-            <a href="https://www.google.com.ua/?hl=ru" title="logo" target="_blank"> <span>WebStudio</span> </a>
-            <span>Студия</span>
-            <span>Портфолио</span>
-            <span>Контакты</span>
+            <a href="./index.html" title="logo" target="_blank"> <span>WebStudio</span> </a>
+            <a href="#studio"><h2>Студия</h2></a>
+            <a href="#portfolio"><h2>Портфолио</h2></a>
+            <a href="#contacts"><h2>Контакты</h2></a>
         </nav>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tell:+38 096 111 11 11">+38 096 111 11 11</a>
+        <ul>
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tell:+38 096 111 11 11">+38 096 111 11 11</a></li>
+        </ul>
     </header>
+
     <main>
         <!--First section-->
         <section>
             <h1>
                 Эффективные решения для вашего бизнеса
             </h1>
-            <button><span>Заказать услугу</span></button>
+            <button type="button">Заказать услугу</button>
 
         </section>
         <!--Second section-->
         <section>
+            <h2 id="studio">Особенности</h2>
             <ul>
                 <li>
-                    <p>Внимание к деталям</p>
+                    <h3>Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li>
-                    <p>Пунктуальность</p>
-
+                    <h3>Пунктуальность</h3>
                     <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li>
-                    <p>Планирование</p>
-
+                    <h3>Планирование</h3>
                     <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li>
-                    <p>Современные технологии</p>
-
+                    <h3>Современные технологии</h3>
                     <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+        </section> 
+        <!--Third section-->
+        <section>
             <h2>
                 Чем мы занимаемся
             </h2>
             <ul>
-                <li><img src="./images/box1.jpg" alt="work with computer" width="300"></li>
-                <li><img src="./images/box2.jpg" alt="work with computer" width="300"></li>
-                <li><img src="./images/box3.jpg" alt="work with computer" width="300"></li>
+                <li><img src="./images/box1.jpg" alt="Разработка програмного обезпечения" width="370"></li>
+                <li><img src="./images/box2.jpg" alt="Разработка дизайна для мобильного приложения" width="370"></li>
+                <li><img src="./images/box3.jpg" alt="Работа с палитрой цветов" width="370"></li>
             </ul>
         </section>
-        <!--Third section-->
+        <!--Forth section-->
         <section>
-            <h2>
+            <h2 id="portfolio">
                 Наша команда
             </h2>
             <ul>
                 <li>
-                    <img src="./images/img0.jpg" alt="Игорь Демьяненко" width="300">
-                    <p>Игорь Демьяненко</p>
-                    <span>Product Designer</span>
+                    <img src="./images/img0.jpg" alt="Игорь Демьяненко" width="270">
+                    <h3>Игорь Демьяненко</h3>
+                    <p leng="en">Product Designer</p>
                 </li>
                 <li>
-                    <img src="./images/img1.jpg" alt="Ольга Репина" width="300">
-                    <p>Ольга Репина</p>
-                    <span>Frontend Developer</span>
+                    <img src="./images/img1.jpg" alt="Ольга Репина" width="270">
+                    <h3>Ольга Репина</h3>
+                    <p leng="en">Frontend Developer</p>
                 </li>
                 <li>
-                    <img src="./images/img2.jpg" alt="Николай Тарасов" width="300">
-                    <p>Николай Тарасов</p>
-                    <span>Marketing</span>
+                    <img src="./images/img2.jpg" alt="Николай Тарасов" width="270">
+                    <h3>Николай Тарасов</h3>
+                    <p leng="en">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/img3.jpg" alt="Михаил Ермаков" width="300">
-                    <p>Михаил Ермаков</p>
-                    <span>UI Designer</span>
+                    <h3>Михаил Ермаков</h3>
+                    <p leng="en">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
     <footer>
-        <adress>
-            <a href="https://www.google.com.ua/?hl=ru" title="logo" target="_blank"> <span>WebStudio</span> </a>
+        <a href="index.html" title="logo" target="_blank"> <span>WebStudio</span> </a>
+        <adress id="contacts">
             <p>г. Киев, пр-т Леси Украинки, 26</p>
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             <a href="tell:+38 096 111 11 11">+38 096 111 11 11</a>
